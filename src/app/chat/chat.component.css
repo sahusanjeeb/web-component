@@ -1,0 +1,353 @@
+.divContainer {
+    height: 100%;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+}
+
+.popupheadercontainer {
+    height: 10%;
+    width: 100%;
+    background: #000000;
+    box-shadow: 0px 4px 6px rgba(0,0,0, 0.043542);
+    opacity: 1;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+  }
+
+  .column {
+    float: left;
+    padding-left: 12px;
+  }
+
+/* .message.from {
+    background-color: rgba(232,232,232, 1);
+    color: #000000;
+    width: 75%;
+    border-radius: 0px 10px 10px 10px;
+    margin-left: 15%;
+    margin-top: 3%;
+    border: 1px solid rgba(223,223,223, 1);
+    overflow: hidden;
+} */
+
+/* .message.to {
+    color: white;
+    width: 75%;
+    margin-top: 3%;
+    background-color: #000000;
+    border-radius: 10px 10px 10px 10px;
+    float: right;
+    margin-right: 3%;
+    overflow: hidden;
+} */
+
+.messageContent {
+    margin: 3%;
+    word-wrap: break-word;
+    opacity: 1;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    line-height: 18px;
+    white-space: pre-line;
+}
+
+/* .message.botTime {
+    color: #949494;
+    font-size: 12px;
+    margin-top: 1%;
+    margin-left: 15%;
+} */
+/* .message.userTime{
+    color: #949494;
+    float: right;
+    font-size: 12px;
+    margin-top: 1%;
+    margin-right: 3%;
+} */
+
+p.groove {
+    border-style: groove;
+    opacity: 1;
+    color: rgba(148, 148, 148, 1);
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid rgba(148, 148, 148, 1);
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.btnSend {
+    border: none;
+    color: black;
+    cursor: pointer;
+    background: no-repeat;
+    float: right;
+    height: 100%;
+    margin-right: 2%;
+}
+
+.emojiIcon
+{
+    border: none;
+    color: black;
+    cursor: pointer;
+    background: no-repeat;
+    height: 100%;
+}
+
+.messageinput {
+    height: 10%;
+    width: 100%;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#popupheader {
+    float: left;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    padding-left: 20%;
+}
+
+/* .aida {
+    color: rgba(255, 255, 255, 1);
+    font-family: sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 18px;
+} */
+
+#usericon {
+    float: left;
+    height: 100%;
+    width: 15%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#closeicon {
+    float: right;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+}
+
+#maximizeicon {
+    float: right;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+}
+
+img.botheadericon {
+    width: 75%;
+    height: 75%;
+    padding-left: 12px;
+}
+
+
+
+::placeholder {
+    color: #A0A0A0;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #A0A0A0;
+}
+
+::-ms-input-placeholder {
+    color: #A0A0A0;
+}
+
+input {
+    border: none;
+    background: none;
+    width: 78%;
+    margin-left: 3%;
+    outline: none;
+    height: 100%;
+    color: black;
+}
+
+button.closebutton {
+    cursor: pointer;
+    float: right;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 25px;
+}
+.messageicon{
+    bottom: 0px;
+    cursor: pointer;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 2%;
+    position: fixed;
+    right: 0px;
+    display: whi;
+    z-index: 9999;
+    box-shadow: 2px 3px 4px 5px gray;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+button.Maximizebutton {
+    cursor: pointer;
+    float: right;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 25px;
+    margin: 5px 15px 5px 15px;
+}
+
+.fa {
+    color: white;
+    display: inline-block;
+    font: normal normal normal 18px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.messageBody {
+    height: 80%;
+    width: 100%;
+    overflow-y: auto;
+    background: white;
+    border-bottom: 2px solid #E7E7E7;
+    box-shadow: 0px -4px 6px rgba(0,0,0, 0.043078);
+    opacity: 1;
+    background-color: rgba(255,255,255, 1);
+}
+
+.spinner {
+    text-align: center;
+    background-color: #E8E8E8;
+    color: #000000;
+    width: 15%;
+    border-radius: 10px 10px 0px 10px;
+    border: 1px solid #DFDFDF;
+    margin: 3%;
+    opacity: 1;
+    min-height: 25px;
+    display: flex; align-items: center; justify-content: center;
+}
+
+.spinner>div {
+    margin: 3%;
+    min-width: 7px;
+    min-height: 7px;
+    background-color: #000000;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+.spinner .bounce3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0)
+    }
+
+    40% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bouncedelay {
+
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1111; 
+  }
+
+  .divArrow.botarrow::after{
+  
+    border-right: 25px solid rgba(232,232,232, 1); content: " ";
+    position: absolute;
+    border-left: none;
+    border-bottom: 10px solid transparent;
+    left: 11.5%;
+  }
+

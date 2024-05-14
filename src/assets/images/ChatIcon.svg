@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ChatIcon</title>
+    <defs>
+        <circle id="path-1" cx="28" cy="28" r="28"></circle>
+        <filter x="-15.2%" y="-11.6%" width="130.4%" height="130.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Medium-1" transform="translate(-1357.000000, -853.000000)">
+            <g id="ChatIcon-2" transform="translate(1357.000000, 853.000000)">
+                <g id="ChatIcon" transform="translate(2.000000, 2.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="chatIcon" transform="translate(12.374909, 15.125000)" fill="#CC0166" fill-rule="nonzero">
+                        <path d="M20.3125909,8.59375 C20.3125909,3.84765565 15.7666922,0 10.1563409,0 C4.54598966,0 -7.10542736e-15,3.84765565 -7.10542736e-15,8.59375 C-7.10542736e-15,10.5258793 0.762786,12.302734 2.03475881,13.7402341 C1.23446587,15.3398439 0.11923167,16.5390626 0.101653515,16.55664 C-0.000885845176,16.6643053 -0.0287182341,16.8239743 0.0312917223,16.9645503 C0.0928640654,17.1044916 0.224797457,17.1875 0.374113797,17.1875 C2.24667269,17.1875 3.8291924,16.6445315 5.04891875,16.0136715 C6.55282515,16.75293 8.2911067,17.1875 10.1563409,17.1875 C15.7666922,17.1875 20.3125909,13.3398443 20.3125909,8.59375 Z M29.2774335,21.6650397 C30.5079028,20.2099606 31.2500909,18.3886722 31.2500909,16.40625 C31.2500909,11.6601564 27.0508722,7.8125 21.8750909,7.8125 C21.8597338,7.8125 21.8448609,7.81450272 21.8295053,7.81459957 C21.8506769,8.07128847 21.8750909,8.33007842 21.8750909,8.59375 C21.8750909,13.4091794 17.9844663,17.4414068 12.7881766,18.4814453 C13.8038025,22.22168 17.4366147,25 21.8750909,25 C23.5201106,25 25.0645444,24.6089846 26.4087811,23.9267573 C27.5977478,24.5117188 29.106535,25 30.8741138,25 C31.02348,25 31.1553642,24.9157712 31.2168882,24.7751459 C31.2768981,24.6345699 31.249027,24.4749501 31.1465279,24.3672356 C31.1329022,24.3505865 30.0733343,23.2080072 29.2774335,21.6650397 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
